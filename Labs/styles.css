@@ -1,0 +1,49 @@
+* {
+	font-family:  'Montserrat', sans-serif;
+	background-color: rgb(240,240,230);
+}
+p,h1,h2,h5 {
+	text-align: center;
+}
+.intro {
+	background-color: lightblue;
+}
+#txt {
+	color: red;
+	font-style: italic;
+	background-color: lightblue;
+}
+a:hover {
+	color: green;
+}
+ul li {
+	color: violet;
+}
+img {
+	width: 300px;
+	height: auto;
+	transition: 0.5s;
+	animation: 3s infinite slidein;
+}
+img:hover {
+	width: 250px;
+	height: auto;
+}
+@keyframes slidein {
+	from {
+		margin-left: 90%;
+		transform: rotate(20deg);
+	}
+	25% {
+		transform: rotate(-20deg);
+		margin-left: 25%;
+	}
+	75% {
+		transform: rotate(20deg);
+		margin-left: 75%;
+	}
+	to {
+		margin-left: 10%;
+		transform: rotate(-20deg);
+	}
+}
